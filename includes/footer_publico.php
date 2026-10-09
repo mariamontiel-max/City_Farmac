@@ -1,6 +1,3 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
 <footer class="bg-success text-white text-center py-4 mt-5">
         <div class="container">
             <section aria-label="Redes sociales">
