@@ -1,0 +1,12 @@
+.login-signup-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-signup-container .formulario-corto {
+    width: 100%;
+    max-width: 420px;
+}
