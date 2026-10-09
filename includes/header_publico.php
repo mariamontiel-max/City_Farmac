@@ -26,7 +26,7 @@ if (!isset($titulo)) {
             <div class="collapse navbar-collapse" id="menuPublico">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="index.php">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="productos.php">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="listado_productos.php">Productos</a></li>
                     <li class="nav-item"><a class="nav-link active" href="contacto.php">Contacto</a></li>
                     <li class="nav-item"><a class="nav-link active" href="login.php">Log In</a></li>
                 </ul>
