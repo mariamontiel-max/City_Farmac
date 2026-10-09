@@ -35,6 +35,45 @@ body {
     margin-left: 1px;
 }
 
+.detalle-imagen {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.detalle-imagen img {
+    max-height: 320px;
+    object-fit: contain;
+}
+
+.detalle-info {
+    max-width: 650px;
+}
+
+.detalle-info h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.descripcion-producto {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.detalle-precio {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.detalle-info .calificacion {
+    margin-bottom: 20px;
+}
+
 .login-signup-container {
     min-height: 100vh;
     display: flex;
