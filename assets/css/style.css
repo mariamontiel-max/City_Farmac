@@ -97,3 +97,9 @@ body {
 .card-link:hover {
     background-color: #f1f1f1;
 }
+
+.img-thumbnail {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
