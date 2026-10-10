@@ -10,7 +10,7 @@ if (!isset($titulo)) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $titulo ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
 </head>
 <body class="bg-light">
 <header>
@@ -24,7 +24,7 @@ if (!isset($titulo)) {
 
             <div class="collapse navbar-collapse" id="menuAdmin">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="admin_inicio.php">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="panel_admin.php">Panel</a></li>
                     <li class="nav-item"><a class="nav-link active" href="admin_productos.php">Productos</a></li>
                     <li class="nav-item"><a class="nav-link active" href="admin_categorias.php">Categorías</a></li>
                     <li class="nav-item"><a class="nav-link active" href="admin_marcas.php">Marcas</a></li>

@@ -87,3 +87,13 @@ body {
     max-width: 420px;
 }
 
+.card-link {
+    color: #212529;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-link:hover {
+    background-color: #f1f1f1;
+}
