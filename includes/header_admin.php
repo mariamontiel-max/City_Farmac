@@ -25,12 +25,12 @@ if (!isset($titulo)) {
             <div class="collapse navbar-collapse" id="menuAdmin">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="panel_admin.php">Panel</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="admin_productos.php">Productos</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="admin_categorias.php">Categorías</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="admin_marcas.php">Marcas</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="admin_comentarios.php">Comentarios</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="admin_usuarios.php">Usuarios</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="admin_perfiles.php">Perfiles</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="productos_admin.php">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="categorias_admin.php">Categorías</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="marcas_admin.php">Marcas</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="comentarios_admin.php">Comentarios</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="usuarios_admin.php">Usuarios</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="perfiles_admin.php">Perfiles</a></li>
                 </ul>
             </div>
         </div>
