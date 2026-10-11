@@ -82,23 +82,37 @@ City_Farmac/
 
 ## Vistas públicas
 
-- `/index.php` — Inicio
-- `/listado_productos.php` — Listado de productos
-- `/producto.php` — Detalle de producto
-- `/contacto.php` — Contacto
-- `/404.php` — Página de error 404
+- `/index.php` — Inicio - Link: http://localhost/Maria_Montiel_ACN2AV_P1/City_Farmac/index.php
+
+- `/listado_productos.php` — Listado de productos - Link: http://localhost/Maria_Montiel_ACN2AV_P1/City_Farmac/listado_productos.php
+
+- `/listado_sin_productos.php` — Listado sin productos - Link: http://localhost/Maria_Montiel_ACN2AV_P1/City_Farmac/listado_sin_productos.php
+
+- `/producto.php` — Detalle de producto - Link: http://localhost/Maria_Montiel_ACN2AV_P1/City_Farmac/producto.php
+
+- `/contacto.php` — Contacto - Link: http://localhost/Maria_Montiel_ACN2AV_P1/City_Farmac/contacto.php
+
+- `/404.php` — Página de error 404 - Link: http://localhost/Maria_Montiel_ACN2AV_P1/City_Farmac/404.php
 
 ## Panel de administración
 
-- `/admin/login.php` — Inicio de sesión
-- `/admin/registro.php` — Registro
-- `/admin/panel_admin.php` — Panel principal
-- `/admin/productos_admin.php` — Administración de productos
-- `/admin/categorias_admin.php` — Administración de categorías
-- `/admin/marcas_admin.php` — Administración de marcas
-- `/admin/comentarios_admin.php` — Administración de comentarios
-- `/admin/usuarios_admin.php` — Administración de usuarios
-- `/admin/perfiles_admin.php` — Administración de perfiles
+- `/admin/login.php` — Inicio de sesión - Link: http://localhost/Maria_Montiel_ACN2AV_P1/City_Farmac/admin/login.php
+
+- `/admin/registro.php` — Registro - Link: http://localhost/Maria_Montiel_ACN2AV_P1/City_Farmac/admin/registro.php
+
+- `/admin/panel_admin.php` — Panel principal - Link: http://localhost/Maria_Montiel_ACN2AV_P1/City_Farmac/admin/panel_admin.php
+
+- `/admin/productos_admin.php` — Administración de productos - Link: http://localhost/Maria_Montiel_ACN2AV_P1/City_Farmac/admin/productos_admin.php
+
+- `/admin/categorias_admin.php` — Administración de categorías - Link: http://localhost/Maria_Montiel_ACN2AV_P1/City_Farmac/admin/categorias_admin.ph
+
+- `/admin/marcas_admin.php` — Administración de marcas - Link: http://localhost/Maria_Montiel_ACN2AV_P1/City_Farmac/admin/marcas_admin.php
+
+- `/admin/comentarios_admin.php` — Administración de comentarios - Link: http://localhost/Maria_Montiel_ACN2AV_P1/City_Farmac/admin/comentarios_admin.php
+
+- `/admin/usuarios_admin.php` — Administración de usuarios - Link: http://localhost/Maria_Montiel_ACN2AV_P1/City_Farmac/admin/usuarios_admin.php
+
+- `/admin/perfiles_admin.php` — Administración de perfiles - Link: http://localhost/Maria_Montiel_ACN2AV_P1/City_Farmac/admin/perfiles_admin.php
 
 ## Características
 
