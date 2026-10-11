@@ -1,6 +1,6 @@
 <?php
 $titulo = "Administrar productos";
-require_once "../includes/header_admin.php";
+require_once __DIR__ . "/../includes/header_admin.php";
 ?>
 
 <main class="container py-5">
@@ -87,7 +87,7 @@ require_once "../includes/header_admin.php";
 
                         <td>
                             <img
-                                src="../assets/img/protector-solar.jpg"
+                                src="<?= BASE_URL ?>assets/img/protector-solar.jpg"
                                 alt="Protector Solar Facial FPS 50"
                                 class="img-thumbnail">
                         </td>
@@ -139,7 +139,7 @@ require_once "../includes/header_admin.php";
                                 </form>
 
                                 <a
-                                    href="comentarios_admin.php"
+                                    href="<?= BASE_URL ?>admin/comentarios_admin.php"
                                     class="btn btn-sm btn-info">
                                     Ver comentarios
                                 </a>
@@ -156,7 +156,7 @@ require_once "../includes/header_admin.php";
 
                         <td>
                             <img
-                                src="../assets/img/agua-micelar.jpg"
+                                src="<?= BASE_URL ?>assets/img/agua-micelar.jpg"
                                 alt="Agua Micelar"
                                 class="img-thumbnail">
                         </td>
@@ -208,7 +208,7 @@ require_once "../includes/header_admin.php";
                                 </form>
 
                                 <a
-                                    href="comentarios_admin.php"
+                                    href="<?= BASE_URL ?>admin/comentarios_admin.php"
                                     class="btn btn-sm btn-info">
                                     Ver comentarios
                                 </a>
@@ -225,7 +225,7 @@ require_once "../includes/header_admin.php";
 
                         <td>
                             <img
-                                src="../assets/img/shampoo-anticaida.jpg"
+                                src="<?= BASE_URL ?>assets/img/shampoo-anticaida.jpg"
                                 alt="Shampoo Anticaida"
                                 class="img-thumbnail">
                         </td>
@@ -277,7 +277,7 @@ require_once "../includes/header_admin.php";
                                 </form>
 
                                 <a
-                                    href="comentarios_admin.php"
+                                    href="<?= BASE_URL ?>admin/comentarios_admin.php"
                                     class="btn btn-sm btn-info">
                                     Ver comentarios
                                 </a>
@@ -1424,5 +1424,5 @@ require_once "../includes/header_admin.php";
 
 
 <?php
-require_once "../includes/footer_admin.php";
+require_once __DIR__ . "/../includes/footer_admin.php";
 ?>

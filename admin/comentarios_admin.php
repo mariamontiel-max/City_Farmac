@@ -1,6 +1,6 @@
 <?php
 $titulo = "Administrar comentarios";
-require_once "../includes/header_admin.php";
+require_once __DIR__ . "/../includes/header_admin.php";
 ?>
 
 <main class="container py-5">
@@ -156,5 +156,5 @@ require_once "../includes/header_admin.php";
 </main>
 
 <?php
-require_once "../includes/footer_admin.php";
+require_once __DIR__ . "/../includes/footer_admin.php";
 ?>

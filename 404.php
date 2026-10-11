@@ -1,6 +1,6 @@
 <?php
 $titulo = "Página no encontrada";
-require_once "includes/header_publico.php";
+require_once __DIR__ . "/includes/header_publico.php";
 ?>
 
 <main class="container py-5 text-center">
@@ -12,7 +12,7 @@ require_once "includes/header_publico.php";
     </p>
 
     <a
-        href="index.php"
+        href="<?= BASE_URL ?>index.php"
         class="btn btn-success">
         Volver al inicio
     </a>
@@ -20,5 +20,5 @@ require_once "includes/header_publico.php";
 </main>
 
 <?php
-require_once "includes/footer_publico.php";
+require_once __DIR__ . "/includes/footer_publico.php";
 ?>

@@ -1,6 +1,6 @@
 <?php
 $titulo = "Inicio";
-require_once "includes/header_publico.php";
+require_once __DIR__ . "/includes/header_publico.php";
 ?>
 
 <main>
@@ -9,7 +9,7 @@ require_once "includes/header_publico.php";
         <div class="container">
             <h1 class="display-5 fw-bold">Bienvenidos a City Farmac</h1>
             <p class="lead">Tu farmacia de confianza.</p>
-            <a class="btn btn-success" href="productos.php">Ver productos</a>
+            <a class="btn btn-success" href="<?= BASE_URL ?>listado_productos.php">Ver productos</a>
         </div>
     </section>
 
@@ -24,7 +24,7 @@ require_once "includes/header_publico.php";
                 <div class="card h-100 shadow-sm">
 
                     <img
-                        src="assets/img/protector-solar.jpg"
+                        src="<?= BASE_URL ?>assets/img/protector-solar.jpg"
                         class="card-img-top producto-img"
                         alt="Protector Solar Facial">
 
@@ -49,7 +49,7 @@ require_once "includes/header_publico.php";
 
                             <a
                                 class="btn btn-outline-success w-100 mt-auto"
-                                href="producto.php">
+                                href="<?= BASE_URL ?>producto.php">
                                 Ver detalle
                             </a>
                         </div>
@@ -64,7 +64,7 @@ require_once "includes/header_publico.php";
                 <div class="card h-100 shadow-sm">
 
                     <img
-                        src="assets/img/agua-micelar.jpg"
+                        src="<?= BASE_URL ?>assets/img/agua-micelar.jpg"
                         class="card-img-top producto-img"
                         alt="Agua Micelar">
 
@@ -89,7 +89,7 @@ require_once "includes/header_publico.php";
 
                             <a
                                 class="btn btn-outline-success w-100 mt-auto"
-                                href="producto.php">
+                                href="<?= BASE_URL ?>producto.php">
                                 Ver detalle
                             </a>
                         </div>
@@ -103,7 +103,7 @@ require_once "includes/header_publico.php";
                 <div class="card h-100 shadow-sm">
 
                     <img
-                        src="assets/img/shampoo-anticaida.jpg"
+                        src="<?= BASE_URL ?>assets/img/shampoo-anticaida.jpg"
                         class="card-img-top producto-img"
                         alt="Shampoo Anticaida">
 
@@ -128,7 +128,7 @@ require_once "includes/header_publico.php";
 
                             <a
                                 class="btn btn-outline-success w-100 mt-auto"
-                                href="producto.php">
+                                href="<?= BASE_URL ?>producto.php">
                                 Ver detalle
                             </a>
                         </div>
@@ -143,7 +143,7 @@ require_once "includes/header_publico.php";
                 <div class="card h-100 shadow-sm">
 
                     <img
-                        src="assets/img/crema-corporal.jpg"
+                        src="<?= BASE_URL ?>assets/img/crema-corporal.jpg"
                         class="card-img-top producto-img"
                         alt="Crema Corporal">
 
@@ -168,7 +168,7 @@ require_once "includes/header_publico.php";
 
                             <a
                                 class="btn btn-outline-success w-100 mt-auto"
-                                href="producto.php">
+                                href="<?= BASE_URL ?>producto.php">
                                 Ver detalle
                             </a>
                         </div>
@@ -183,7 +183,7 @@ require_once "includes/header_publico.php";
                 <div class="card h-100 shadow-sm">
 
                     <img
-                        src="assets/img/desodorante-antitranspirante.jpg"
+                        src="<?= BASE_URL ?>assets/img/desodorante-antitranspirante.jpg"
                         class="card-img-top producto-img"
                         alt="Desodorante Antitranspirante">
 
@@ -208,7 +208,7 @@ require_once "includes/header_publico.php";
 
                             <a
                                 class="btn btn-outline-success w-100 mt-auto"
-                                href="producto.php">
+                                href="<?= BASE_URL ?>producto.php">
                                 Ver detalle
                             </a>
                         </div>
@@ -223,7 +223,7 @@ require_once "includes/header_publico.php";
                 <div class="card h-100 shadow-sm">
 
                     <img
-                        src="assets/img/EDP.jpg"
+                        src="<?= BASE_URL ?>assets/img/EDP.jpg"
                         class="card-img-top producto-img"
                         alt="EDP">
 
@@ -248,7 +248,7 @@ require_once "includes/header_publico.php";
 
                             <a
                                 class="btn btn-outline-success w-100"
-                                href="producto.php">
+                                href="<?= BASE_URL ?>producto.php">
                                 Ver detalle
                             </a>
                         </div>
@@ -264,5 +264,5 @@ require_once "includes/header_publico.php";
 </main>
 
 <?php
-require_once "includes/footer_publico.php";
+require_once __DIR__ . "/includes/footer_publico.php";
 ?>

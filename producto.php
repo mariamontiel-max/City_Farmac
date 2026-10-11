@@ -1,6 +1,6 @@
 <?php
 $titulo = "Detalle de producto";
-require_once "includes/header_publico.php";
+require_once __DIR__ . "/includes/header_publico.php";
 ?>
 
 <main class="container py-5">
@@ -12,7 +12,7 @@ require_once "includes/header_publico.php";
             <div class="detalle-imagen shadow-sm">
 
                 <img
-                    src="assets/img/protector-solar.jpg"
+                    src="<?= BASE_URL ?>assets/img/protector-solar.jpg"
                     class="img-fluid"
                     alt="Protector Solar Facial FPS 50">
 
@@ -206,5 +206,5 @@ require_once "includes/header_publico.php";
 </main>
 
 <?php
-require_once "includes/footer_publico.php";
+require_once __DIR__ . "/includes/footer_publico.php";
 ?>
