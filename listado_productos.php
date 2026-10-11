@@ -472,13 +472,6 @@ require_once __DIR__ . "/includes/header_publico.php";
 
             </div>
 
-            <hr>
-
-            <!-- Estado vacío -->
-            <div class="alert alert-secondary mt-4">
-                No hay productos para mostrar.
-            </div>
-
         </section>
 
     </div>
