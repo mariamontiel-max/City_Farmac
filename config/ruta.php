@@ -1,3 +1,3 @@
 <?php
 
-define("BASE_URL", "/City_Farmac/City_Farmac/");
+define("BASE_URL", "/Maria_Montiel_ACN2AV_P1/City_Farmac/");
